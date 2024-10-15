@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background:url(../img/imagen-cibertec.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    align-content: center;
+}
+
+.contenedor-principal{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background:linear-gradient(rgba(0, 0, 0, 0.638),rgb(5, 7, 12));
+    width: 25%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: whitesmoke;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+@media (max-width: 768px) {
+    .contenedor-principal {
+      width: 75%;
+      padding: 15px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contenedor-principal {
+      width: 100%;
+      padding: 10px;
+      font-size: 12px;
+    }
+  }

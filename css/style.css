@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.638),rgb(5, 7, 12)) ,url(../img/2022_3_16_15_45_14094.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+#cajalogo{
+    width: 100%;
+    height: 100px;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+nav{
+    border-bottom: 3px solid black;
+
+}
+#logocibertec{
+    width: 350px;
+    height: auto;
+}
+.contenedor-principal{ 
+    width: 100% auto;
+    height: auto; 
+    padding: 0px 20px 20px 20px;
+    
+}
+#caja{
+    margin-top: 10px;
+
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    color: aqua;
+
+}
+.cuadro-titulo{
+    font-size: 30px;
+}
+main{
+   font-size: 25px; 
+   display: flex;
+   flex-direction: row; 
+   width: 80%;
+   justify-content: space-evenly;
+
+}
+h3{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+table{
+    margin-top: 20px;
+}

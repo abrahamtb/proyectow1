@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <div id="cajalogo">
+            <img src="img/image-removebg-preview (1).png" alt="cibertec" id="logocibertec">
+        </div>
+            <h1 class="h1" style="color: white;">Bienvenido al sistema de informacion academica</h1>
+            <nav class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="notas.html">Notas</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="horario.html">Horario</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="facturacion.html">Facturación</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="rendimiento.html">Rendimiento</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="contactos.html">Contactos</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="solicitudes.html">Solicitudes</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="novedades.html">Novedades</a></li>
+                    </ul>
+                    </div>  
+                </nav>
+                <div class="cuadro-titulo">
+                    <h3 style="color: white;">Mi Horario Semanal</h3>
+                </div>
+        <div class="contenedor-de-contenido">
+            <main class="titulo-notas">
+            <div  class="container-fluid">
+                <h5 style="color: white;">Alumno</h5>
+                <form class="d-flex" role="search"> 
+                <input class="form-control me-2" type="text" placeholder="ABRAHAM TINTAYA BARREDA">
+                </form>
+            </div>
+            <div  class="container-fluid">
+                <h5 style="color: white;">Duracion del Modulo</h5>
+                <form class="d-flex" role="search"> 
+                <input class="form-control me-2" type="text" placeholder="25/03/2024 - 12/05/2024">
+                </form>
+            </div>
+        </main>
+            <div class="cuadro-horario">
+                <div class="card" id="caja">  
+                    <div class="card-header">
+                        Lunes - Domingo
+                    </div>    
+                <table class="table table-bordered">
+                    <thead>
+                        <tr class="table-warning">
+                        <th  scope="col" >Dia</th>
+                        <th  scope="col" >Curso</th>
+                        <th  scope="col" >Codigo Clase</th>
+                        <th  scope="col" >Tipo</th>
+                        <th  scope="col" >Salon</th>
+                        <th  scope="col" >Hora de Entrada</th>
+                        <th  scope="col" >Hora de Salida</th>
+                        <th  scope="col" >Sede</th>
+                    </tr>
+                    </thead>
+                    <tbody class="body-tabla">
+                        <tr scope="row">
+                            <th>Martes</th>
+                            <th>Algoritmos y Estructuras de Datos</th>
+                            <th>2024233776</th>
+                            <th>Presencial</th>
+                            <th>S202</th>
+                            <th>08:00 AM</th>
+                            <th>12:00 PM</th>
+                            <th>Lima Centro</th>
+                        </tr>
+                        <tr scope="row">
+                            <th>Miercoles</th>
+                            <th>Base de Datos</th>
+                            <th>2024233876</th>
+                            <th>Presencial</th>
+                            <th>S204</th>
+                            <th>08:00 AM</th>
+                            <th>13:00 PM</th>
+                            <th>Lima Centro</th>
+                        </tr>
+                        <tr scope="row">
+                            <th>Jueves</th>
+                            <th>Matematica II</th>
+                            <th>2024233896</th>
+                            <th>Virtual</th>
+                            <th>-</th>
+                            <th>10:00 AM</th>
+                            <th>15:00 PM</th>
+                            <th>San Juan Lurigancho</th>
+                        </tr>
+                        <tr scope="row">
+                            <th>Viernes</th>
+                            <th>Experencias Formativas en Situaciones Reales  de Trabajo I</th>
+                            <th>2024233676</th>
+                            <th>Virtual</th>
+                            <th>-</th>
+                            <th>12:00 AM</th>
+                            <th>01:00 AM</th>
+                            <th>Lima Centro</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
